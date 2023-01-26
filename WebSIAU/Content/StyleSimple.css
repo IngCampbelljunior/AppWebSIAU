@@ -7,12 +7,12 @@
     -moz-transition-timing-function: cubic-bezier(100,50,21,6);
 }
 
-/*body{
+form{
     background: #FFFFFF;
     padding: 10px;
-    text-align: center;
+    text-align: justify;
     font-family: 'Oswald', sans-serif;
-}*/
+}
 
 h2{
     color: RGB(0, 153, 0);

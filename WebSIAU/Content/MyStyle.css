@@ -2,35 +2,36 @@
 
 /* Get rid of all default margins/paddings. Set typeface */
 body {
+    min-height: 100vh;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: white;
-    font-family: "lato", sans-serif;
+    
 }
 
 /* Pone el formulario en el centro tanto horizontal como verticalmente. Establece su altura al 100% de la altura de la ventana gráfica */
 
-.signupFrm {
+/*.signupFrm {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120vh;
-}
+    height: 130vh;
+}*/
 
 .form {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    background-color: white;
-    width: 900px;
+    /*background-color: white;*/
+    width: 700px;
     border-radius: 15px;
     padding: 20px 20px;
     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
 }
 
 .title {
-    font-size: 20px;
+    font-size: 10px;
     color: #145A32;
 }
 
@@ -60,9 +61,9 @@ body {
 
 /* Hide the placeholder texts (a) */
 
-::placeholder {
+/*::placeholder {
     color: transparent;
-}
+}*/
 
 /* Styling text labels */
 
