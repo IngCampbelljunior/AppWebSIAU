@@ -335,17 +335,7 @@ WHERE IpConexion Like CONCAT('%',:IpConexion,'%') Order by IpConexion ";
         public string Medida_Edad { get; set; }
     }
 
-    /* 
-     SELECT f.ConsInterno, f.NitEntidad,
-    (SELECT e.Nombre_Entidad FROM Entidades e
-       WHERE e.Empresa = f.Empresa AND e.NitEntidad = f.NitEntidad) NombreEntidad,
-     f.CodConvenio, c.Nombre_Convenio
-  FROM Facturas f INNER JOIN Convenios c
-   ON f.Empresa = c.Empresa AND
-      f.CodConvenio = c.Cod_Convenio
-  WHERE f.Empresa = 'C30'  AND
-        f.NoCuenta = 400000
-       */
+    
     public class ResponsablesCaso
     {
         public Entero ConsInterno { get; set; }
@@ -1608,13 +1598,7 @@ WHERE IpConexion Like CONCAT('%',:IpConexion,'%') Order by IpConexion ";
     }
     public class SampleViewModel
     {
-        ////[Required]
-        ////[MinLength(10)]
-        ////[MaxLength(100)]
-        ////[Display(Name = "Ask Magic 8 Ball any question:")]
-        //public string TipoDocumento { get; set;}
-        //public string NomDocumento { get; set; }
-
+        
         public string Question { get; set; }
 
         //See here for list of answers
